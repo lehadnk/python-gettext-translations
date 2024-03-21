@@ -3,11 +3,9 @@ Usage
 1. Place your translation files in the directory tree structured as below:
 .. code-block:: console
 
-    |
-    |- en_GB |
-             |- messages.po
-    |- fr_FR |
-             |- messages.po
+    i18n/en_GB/messages.po
+    i18n/fr_FR/messages.po
+
 2. Load the translation strings:
 .. code-block:: python
 
