@@ -6,7 +6,6 @@ def init_translations(translations_dir: str):
 
 def __(language: str, original: str, placeholders: Optional[dict[str, str]] = None) -> str:
     translation = Storage.get_translation_string(language, original)
-    print(translation)
     if placeholders:
         for placeholder in placeholders:
             print(placeholder)
