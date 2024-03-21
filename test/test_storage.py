@@ -1,6 +1,6 @@
 import os
 
-from storage import Storage
+from python_gettext_translations.storage import Storage
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 

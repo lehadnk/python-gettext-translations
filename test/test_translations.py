@@ -1,6 +1,6 @@
 import os
 
-from translations import init_translations, __
+from python_gettext_translations.translations import init_translations, __
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 

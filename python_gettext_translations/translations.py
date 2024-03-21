@@ -1,5 +1,5 @@
 from typing import Optional
-from storage import Storage
+from python_gettext_translations.storage import Storage
 
 def init_translations(translations_dir: str):
     Storage.load(translations_dir)
