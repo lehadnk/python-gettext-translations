@@ -1,5 +1,5 @@
 [build-system]
-requires = ["flit_core>=3.7", "polib"]
+requires = ["flit_core>=3.7", "pytest"]
 build-backend = "flit_core.buildapi"
 
 [project]
@@ -16,6 +16,7 @@ classifiers = [
 ]
 dependencies = [
     'importlib-metadata; python_version<"3.8"',
+    "polib"
 ]
 dynamic = ["version"]
 
