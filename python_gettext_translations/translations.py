@@ -8,7 +8,6 @@ def __(language: str, original: str, placeholders: Optional[dict[str, str]] = No
     translation = Storage.get_translation_string(language, original)
     if placeholders:
         for placeholder in placeholders:
-            print(placeholder)
             translation = translation.replace("%" + placeholder + "%", placeholders[placeholder])
 
     return translation
