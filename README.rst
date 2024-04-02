@@ -16,8 +16,8 @@ Usage
 3. Get translation string:
 .. code-block:: python
 
-    from translations import __
-    __("de_DE", "Hello, %user%", {"user": "Alexey"}) # Prints "Hello, Alexey"
+    from translations import translate
+    translate("de_DE", "Hello, %user%", {"user": "Alexey"}) # Prints "Hello, Alexey"
 
 New version release
 --------------------
